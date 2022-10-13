@@ -44,8 +44,8 @@ $ mysql -u dba -p ### password: 'ahi2020' Authorization granted and the user is 
 3. MYSQL_PASSWORD = 'ahi2022'
 4. MYSQL_DATABASE = 'tempdata'
 5. connection_string = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOSTNAME}/{MYSQL_DATABASE}'
-6. db = create_engine(connection_string)
-7. print(db.table_names())
+6. db1 = create_engine(connection_string)
+7. print(db1.table_names())
 
 ### create database tempdata;
 ### in the python file, use the '.read_csv' to read the data file
