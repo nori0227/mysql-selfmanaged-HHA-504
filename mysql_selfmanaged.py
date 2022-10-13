@@ -27,11 +27,6 @@ db1 = create_engine(connection_string)
 
 db1
 
-salary = pd.read_csv(
-    'data/Data_Science_Fields_Salary_Categorization.csv')
-salary.to_sql('Data_Science_Fields_Salary_Categorization',
-              con=engine, if_exists='append')
-
 collected_data = pd.read_csv('/State_Taxes_and_Fees_Collected__Beginning_Fiscal_Year_Ending_March_31__1995.csv')
 collected_data
 
