@@ -50,3 +50,8 @@ $ mysql -u dba -p ### password: 'ahi2020' Authorization granted and the user is 
 ### create database tempdata;
 ### in the python file, use the '.read_csv' to read the data file
 ### upload the datafile to the sql using the '.to_sql' command
+#### in VM, sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf 
+#### change bind-address to 0.0.0.0
+#### sudo service mysql restart 
+#### sudo /etc/init.d/mysql restart
+#### go to VM instance, open 3306 port (Protocols & ports-TCP) through creating firewall rule. change targets to all instances in the network. change source IPv4 ranges to 0.0.0.0/0
