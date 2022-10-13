@@ -54,4 +54,4 @@ $ mysql -u dba -p ### password: 'ahi2020' Authorization granted and the user is 
 #### change bind-address to 0.0.0.0
 #### sudo service mysql restart 
 #### sudo /etc/init.d/mysql restart
-#### go to VM instance, open 3306 port (Protocols & ports-TCP) through creating firewall rule. change targets to all instances in the network. change source IPv4 ranges to 0.0.0.0/0
+#### go to VM instance, open 3306 port (Protocols & ports-TCP) through via firewall rule. change targets to all instances in the network. change source IPv4 ranges to 0.0.0.0/0
