@@ -5,7 +5,7 @@ HHA 504 Assignment 5: Flask and DBs - mySQL
 
 
 
-# in VM (used GCP)
+# in VM (GCP instance name: mysql-selfmanaged)
 
 $ sudo apt-get update  
 
